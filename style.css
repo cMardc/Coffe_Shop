@@ -1,0 +1,185 @@
+@keyframes mySlide
+{
+    from{margin-left: 100%}
+    to{margin-left: 0%}
+}
+
+body
+{
+    background: linear-gradient(white,lightgreen,lightyellow,violet);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.startingText
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color:crimson;
+    border-radius:30px;
+    padding:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+#welcomeText
+{
+    animation:mySlide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration:5s;
+}
+
+.block 
+{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+#Latte
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color:violet;
+    border-radius:30px;
+    padding:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+#Cappuccino
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color:grey;
+    border-radius:30px;
+    padding:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+
+#BlackCoffe
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color:skyblue;
+    border-radius:30px;
+    padding:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+#Thanks
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color:goldenrod;
+    border-radius:30px;
+    padding:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+
+.myAudios
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color:goldenrod;
+    border-radius:3px;
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+.about
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color: crimson;
+    border-radius:30px;
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+#ending
+{
+    color:darkmagenta;
+    animation:mySlide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration:5s;
+}
+
+#Americano
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color: rgb(98, 11, 98);
+    border-radius:30px;
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+
+#forumPage
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color: darkviolet;
+    border-radius:30px;
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
+
+#submitBtn
+{
+    border-style:outset;
+    border-width: 7px;
+    border-color: darkviolet;
+    border-radius:30px;
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration:cyan;
+    position:relative;
+    left: 10px;
+}
